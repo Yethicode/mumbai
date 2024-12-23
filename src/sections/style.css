@@ -1,0 +1,22 @@
+
+h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 865px;
+    left: calc(50% - 60px);
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 865px;
+    left: calc(50% - 20px);
+}
